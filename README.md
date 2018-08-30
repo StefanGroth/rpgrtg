@@ -5,7 +5,7 @@
 Es gibt 'ne Menge Random Tables [\[1\]](https://www.reddit.com/r/BehindTheTables/) und Würfelwerfer [\[2\]](https://chartopia.d12dev.com/en/search/)[\[3\]](https://autorolltables.github.io/) im Internet. Allerdings fehlen mir bei allen Tools, die ich mir bisher angeschaut habe, zwei Features:
 
 * __Personalisierung der Würfelergebnisse:__ Narben über dem Auge sind auch noch beim 70. Mal mysteriös, aber vielleicht nicht mehr so kreativ. Es wäre cool, wenn man ein gewürfelte Eigenschaft als verwendet markieren könnte und der Algorithmus die Wahrscheinlichkeiten gewichtet. Außerdem könnte man damit noch Verwendungsstatistiken erheben, aber das ist optional.
-* __Feingranualität:__ Rennautos, aber auch fremde Planeten sind gelegentlich rot. Beim Erstellen von neuen Eigenschaften sollte es möglich sein, deren Ergebnisse an verschiedene Eigenschaften zu binden. Diese Eigenschaften sollten wiederum an verschiedene Roll Tables     
+* __Feingranualität:__ Rennautos, aber auch fremde Planeten sind gelegentlich rot. Beim Erstellen von neuen Eigenschaften sollte es möglich sein, deren Ergebnisse an verschiedene Eigenschaften zu binden. Diese Eigenschaften sollten wiederum zu verschiedene Roll Tables gehören.     
 
 Es wäre also cool, ein Tool zu schreiben, dass diese Features beinhaltet. Insbesondere weil keine der Einzelaufgaben wirklich komplex ist. Es ist mehr ein Software Engineering Problem als eine algorithmische oder technologieabhängige Aufgabe.
 
