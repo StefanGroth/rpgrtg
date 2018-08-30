@@ -18,7 +18,7 @@ Das Ziel dieses Projektes soll es sein ein Tool zu erstellen, dass neben den ebe
 
 ## Offene Fragen
 
-* Sprache? (scalascalacsclalcac)
+* Sprache? (vorschläge: scalascalacsclalcac, java, python)
 * Das Einlesen von Eigenschaften, das generieren von Random Tables und das tatsächliche Ausführen eines Random Tables sind verschiedene Programme. Ist diese Aussage korrekt?
 * Sinnvolle Trennung von Personalisierung und Ergebnissen?  
 * Input-Format?
