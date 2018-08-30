@@ -9,12 +9,6 @@ Es gibt 'ne Menge Random Tables [\[1\]](https://www.reddit.com/r/BehindTheTables
 
 Es wäre also cool, ein Tool zu schreiben, dass diese Features beinhaltet. Insbesondere weil keine der Einzelaufgaben wirklich komplex ist. Es ist mehr ein Software Engineering Problem als eine algorithmische oder technologieabhängige Aufgabe.
 
-## Ein mögliches Klassendiagramm
-
-Das Programm soll also beispielsweise Modelle der folgenden Form generieren:
-
-![Class Diagram](cd.jpg)
-
 ## Anforderungen
 
 Das Ziel dieses Projektes soll es sein ein Tool zu erstellen, dass neben den eben genannten Features folgende Funktionalität aufweist:
@@ -30,3 +24,9 @@ Das Ziel dieses Projektes soll es sein ein Tool zu erstellen, dass neben den ebe
 * Input-Format?
 * Output-Format? (proly JSON)
 * Wie sollen Eigenschaften im Speicher repräsentiert werden?  
+
+## Ein mögliches Klassendiagramm
+
+Das Programm soll also beispielsweise Modelle der folgenden Form generieren:
+
+![Class Diagram](cd.jpg)
