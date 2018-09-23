@@ -1,4 +1,3 @@
-import scala.collection.mutable.ListBuffer
 
 object Main {
 
@@ -12,14 +11,13 @@ object Main {
 
   def main(args: Array[String]): Unit = {
 
-    val heros = Property("Heros", ListBuffer(Result("Benedikt", 2), Result("Falk", BigInt("9000000000000000000000000000000")), Result("Stefan")))
+      val table = RTGTable(
+        "HEROS",
+        RTGAttribute("Name", List("Stefan", "Benedikt", "Falk", "Sebl")),
+        RTGAttribute("Dick size", List("XS", "XXXXXS", "XXX"))
+      )
 
-
-
-    for(_ <- 1 to 100) {
-      println(heros.roll())
-    }
-
+      println(table.rollAll())
 
   }
 }

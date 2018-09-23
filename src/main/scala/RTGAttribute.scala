@@ -1,11 +1,17 @@
 import scala.collection.mutable.ListBuffer
 import scala.util.Random
 
-case class Property(name : String, results : ListBuffer[Result]) {
+case object RTGAttribute {
+
+  def apply(name: String, resultNames : List[String]): RTGAttribute = new RTGAttribute(name, resultNames.map(name => RTGResult(name)).to[ListBuffer])
+
+}
+
+case class RTGAttribute(name : String, results : ListBuffer[RTGResult]) {
 
   private val randomGenerator : Random = Random
 
-  def roll() : Result = {
+  def roll() : RTGResult = {
 
     val totalUsage = results.map(_.usage).sum // 6
 
