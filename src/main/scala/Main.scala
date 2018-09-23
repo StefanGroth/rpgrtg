@@ -1,4 +1,4 @@
-import java.text.AttributedCharacterIterator.Attribute
+import scala.collection.mutable.ListBuffer
 
 object Main {
 
@@ -11,6 +11,15 @@ object Main {
   }
 
   def main(args: Array[String]): Unit = {
+
+    val heros = Property("Heros", ListBuffer(Result("Benedikt", 2), Result("Falk", BigInt("9000000000000000000000000000000")), Result("Stefan")))
+
+
+
+    for(_ <- 1 to 100) {
+      println(heros.roll())
+    }
+
 
   }
 }
