@@ -30,5 +30,3 @@ Das Ziel dieses Projektes soll es sein ein Tool zu erstellen, dass neben den ebe
 Das Programm soll also beispielsweise Modelle der folgenden Form generieren:
 
 ![Class Diagram](cd.jpg)
-
-## TEST
