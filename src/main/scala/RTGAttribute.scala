@@ -13,21 +13,21 @@ case class RTGAttribute(name : String, results : ListBuffer[RTGResult]) {
 
   def roll() : RTGResult = {
 
-    val totalUsage = results.map(_.usage).sum // 6
+    val totalUsage : BigInt = results.map(_.usage).sum
 
     if(totalUsage == 0) {
       return results(randomGenerator.nextInt(results.size))
     }
 
-    val normalization = results.map(totalUsage - _.usage).sum
+    val normalization : BigInt = results.map(totalUsage - _.usage).sum
 
     val roll = randomGenerator.nextDouble()
 
-    var prob : Double = 0
+    var prob : BigDecimal = 0
 
     for(result <- results) {
 
-      prob += (BigDecimal(totalUsage - result.usage) / BigDecimal(normalization)).toDouble
+      prob += BigDecimal(totalUsage - result.usage) / BigDecimal(normalization)
 
       if(prob >= roll) return result
 
